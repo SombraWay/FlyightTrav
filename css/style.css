@@ -19,8 +19,23 @@
 }
 
 @font-face {
-  font-family: "  smol";
-  src: url("../fonts/a_cooperblacknr_[allfont.ru].ttf");
+  font-family: "smol";
+  src: url("../fonts/cooper.ttf");
+}
+
+@font-face {
+  font-family: "big";
+  src: url("../fonts/aabig.ttf");
+}
+
+@font-face {
+  font-family: "Roman";
+  src: url("../fonts/Roman.otf");
+}
+
+@font-face {
+  font-family: "AR";
+  src: url("../fonts/AR.otf");
 }
 
 .wrapper {
@@ -35,8 +50,7 @@
 
 .head {
   width: inherit;
-  height: 20%;
-  background: url("../img/header.png") no-repeat;
+  height: 14%;
 }
 
 .logo {
@@ -47,7 +61,8 @@
 
 .down-logo {
   font-family: Arial;
-  font-size: 60%;
+  font-size: 44%;
+  padding-left: 4%;
   color: #299fca;
 }
 
@@ -71,7 +86,7 @@
 
 .menu-a {
   font-family: ag_souvenir;
-  font-size: 120%;
+  font-size: 105%;
   color: white;
 }
 
@@ -89,6 +104,7 @@
   width: 100%;
   height: 1000px;
   z-index: 1;
+  position: relative;
 }
 
 .up {
@@ -116,7 +132,6 @@
   background-size: 100% 100%;
   width: 86%;
   height: 60%;
-  margin-top: 10%;
 }
 
 .form {
@@ -140,13 +155,74 @@
 
 .planeimg-h1 {
   font-family: big;
-  font-size: 120%;
+  font-size: 300%;
   color: #127ea5;
+  padding: 16% 0% 0% 43%;
 }
 
 .planeimg-p {
+  position: relative;
+  bottom: 4%;
   font-family: smol;
-  font-size: 120%;
+  font-size: 150%;
   color: #ded90e;
+  padding: 0% 0% 0% 43%;
+  line-height: 105%;
+}
+
+.back {
+  width: inherit;
+  height: 130px;
+  background: url(../img/header.png) no-repeat;
+}
+
+.form_name {
+  font-family: Roman;
+  font-size: 100%;
+  color: white;
+}
+
+.nameemail {
+  border-style: solid;
+  border-color: #a7d1e6;
+  border-radius: 7px;
+  width: 45%;
+}
+
+.drop {
+  background: url("../img/droparrow.png") no-repeat right;
+  background-color: white;
+  border-style: solid;
+  border-color: #a7d1e6;
+  border-radius: 7px;
+  width: 45%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #299fca;
+  font-family: Roman;
+}
+
+.message {
+  width: 50%;
+  height: 50px;
+  border-style: solid;
+  border-color: #a7d1e6;
+  border-radius: 7px;
+}
+
+.form-sub {
+  background: #eae00e;
+  color: #6db3ec;
+  border-radius: 5px;
+  border: #eae00e;
+  width: 25%;
+  font-family: AR;
+}
+
+.online {
+  font-family: AR;
+  color: white;
+  font-size: Roman;
 }
 /*# sourceMappingURL=style.css.map */
