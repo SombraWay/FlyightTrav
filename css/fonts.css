@@ -37,4 +37,24 @@
   font-family: "AR";
   src: url("../fonts/AR.otf");
 }
+
+@font-face {
+  font-family: "abodon";
+  src: url("../fonts/abodon.ttf ");
+}
+
+@font-face {
+  font-family: "coloborate";
+  src: url("../fonts/coloborate.ttf ");
+}
+
+@font-face {
+  font-family: "book";
+  src: url("../fonts/book.ttf ");
+}
+
+@font-face {
+  font-family: "sub";
+  src: url("../fonts/sub.ttf ");
+}
 /*# sourceMappingURL=fonts.css.map */

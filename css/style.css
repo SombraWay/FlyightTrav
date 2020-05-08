@@ -38,6 +38,26 @@
   src: url("../fonts/AR.otf");
 }
 
+@font-face {
+  font-family: "abodon";
+  src: url("../fonts/abodon.ttf ");
+}
+
+@font-face {
+  font-family: "coloborate";
+  src: url("../fonts/coloborate.ttf ");
+}
+
+@font-face {
+  font-family: "book";
+  src: url("../fonts/book.ttf ");
+}
+
+@font-face {
+  font-family: "sub";
+  src: url("../fonts/sub.ttf ");
+}
+
 .wrapper {
   width: 100%;
   height: 1800px;
@@ -102,7 +122,7 @@
   background: url("../img/cloudone.png") no-repeat center;
   background-size: 100% 100%;
   width: 100%;
-  height: 1000px;
+  height: 980px;
   z-index: 1;
   position: relative;
 }
@@ -117,14 +137,29 @@
   left: 13%;
 }
 
+.flyightli {
+  display: list-item;
+  font-family: coloborate;
+  font-size: 75%;
+  color: white;
+}
+
+.flyight {
+  margin-top: 9%;
+}
+
 .backgroundtwo {
   background: url("../img/cloudtwo.png") no-repeat center;
   background-size: 100% 100%;
   position: absolute;
-  z-index: 99;
+  z-index: 2;
   width: 100%;
   height: 60%;
-  top: 44%;
+  top: 41%;
+}
+
+.zom {
+  z-index: 93;
 }
 
 .planeimg {
@@ -151,6 +186,7 @@
   opacity: 0.9;
   position: relative;
   right: 30%;
+  bottom: 9%;
 }
 
 .planeimg-h1 {
@@ -158,6 +194,15 @@
   font-size: 300%;
   color: #127ea5;
   padding: 16% 0% 0% 43%;
+}
+
+.offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-top: 5%;
 }
 
 .planeimg-p {
@@ -178,15 +223,19 @@
 
 .form_name {
   font-family: Roman;
-  font-size: 100%;
+  font-size: 110%;
   color: white;
+  position: relative;
+  top: 7px;
 }
 
 .nameemail {
   border-style: solid;
   border-color: #a7d1e6;
   border-radius: 7px;
-  width: 45%;
+  width: 50%;
+  height: 28px;
+  margin-left: 2%;
 }
 
 .drop {
@@ -195,7 +244,12 @@
   border-style: solid;
   border-color: #a7d1e6;
   border-radius: 7px;
-  width: 45%;
+  width: 50%;
+  height: 28px;
+  position: relative;
+  left: 2%;
+  font-size: 90%;
+  padding-left: 3%;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -205,7 +259,7 @@
 
 .message {
   width: 50%;
-  height: 50px;
+  height: 58px;
   border-style: solid;
   border-color: #a7d1e6;
   border-radius: 7px;
@@ -218,11 +272,188 @@
   border: #eae00e;
   width: 25%;
   font-family: AR;
+  margin-left: 43%;
+  height: 35px;
 }
 
 .online {
   font-family: AR;
   color: white;
-  font-size: Roman;
+  font-size: 160%;
+  position: relative;
+  left: 5%;
+  top: 7%;
+}
+
+.price-sbmt {
+  width: 40%;
+  margin-left: 10%;
+  height: 30px;
+  position: relative;
+  top: 4px;
+}
+
+.fifthh {
+  height: 100%;
+  width: 100%;
+}
+
+.africc {
+  position: relative;
+  left: 10%;
+}
+
+.divname {
+  padding-top: 30%;
+  padding-left: 17%;
+}
+
+.mess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Clients {
+  height: 40%;
+}
+
+.mad {
+  height: 100%;
+  padding-left: 12%;
+}
+
+.offers-imgimg {
+  width: 100%;
+  height: 50%;
+}
+
+.offers-img {
+  width: 30%;
+}
+
+.left {
+  margin-left: 3%;
+}
+
+.offers-info {
+  width: 70%;
+  padding-left: 4%;
+}
+
+.offers-p {
+  font-family: coloborate;
+  font-size: 100%;
+  color: white;
+}
+
+.offers-pp {
+  font-family: coloborate;
+  font-size: 80%;
+  color: white;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 19%;
+}
+
+.price-value {
+  font-family: book;
+  font-size: 200%;
+  color: white;
+}
+
+.punctir {
+  color: white;
+}
+
+.formaeba {
+  width: 100%;
+  height: 50%;
+  top: 11%;
+  left: 20%;
+  position: relative;
+}
+
+.home {
+  overflow: hidden;
+  font-family: abodon;
+  font-size: 200%;
+  color: white;
+}
+
+.flexone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 3%;
+}
+
+.flyul {
+  list-style-image: url("../img/arrow.png");
+}
+
+.amountday {
+  position: relative;
+  left: 10%;
+}
+
+.indivigjuals {
+  position: relative;
+  right: 5%;
+}
+
+.divone {
+  width: 50%;
+}
+
+.divtwo {
+  width: 20%;
+}
+
+.divflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.switch-img {
+  background: url("../img/spechial.png") no-repeat center;
+}
+
+.switch {
+  padding-left: 3%;
+}
+
+.switch-img {
+  top: -2%;
+  left: 17%;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+.sumbit {
+  font-family: sub;
+  height: 35px;
+  width: 18%;
+  color: #81ffff;
+  background: #299fca;
+  border-style: solid;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 120%;
+  border-color: #299fca;
+}
+
+.flyightul {
+  padding-top: 3%;
+}
+
+.divthree {
+  width: 14%;
 }
 /*# sourceMappingURL=style.css.map */
